@@ -116,6 +116,12 @@ GA: 3186.3583665385268                        <br>
 MIMIC: 3348.0825763376497                     <br>
 </code></pre>
 
+### Build javadocs
+To generate the documentation of the project run the following command.
+<pre><code>mvn javadoc:javadoc</code></pre>
+
+This will create a folder inside the target folder where all the javadoc information will be available. 
+Open index.html from the browser to facilitate exploring the project.
  
 
 
