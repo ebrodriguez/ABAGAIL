@@ -13,10 +13,10 @@ import java.lang.StringBuffer as StringBuffer
 import java.lang.Boolean as Boolean
 import java.util.Random as Random
 
-import dist.DiscreteDependencyTree as DiscreteDependencyTree
-import dist.DiscreteUniformDistribution as DiscreteUniformDistribution
-import dist.Distribution as Distribution
-import dist.DiscretePermutationDistribution as DiscretePermutationDistribution
+import DiscreteDependencyTree as DiscreteDependencyTree
+import DiscreteUniformDistribution as DiscreteUniformDistribution
+import Distribution as Distribution
+import DiscretePermutationDistribution as DiscretePermutationDistribution
 import opt.DiscreteChangeOneNeighbor as DiscreteChangeOneNeighbor
 import opt.EvaluationFunction as EvaluationFunction
 import opt.GenericHillClimbingProblem as GenericHillClimbingProblem
