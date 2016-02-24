@@ -78,3 +78,44 @@ Features
 ### Value and policy iteration for Markov decision processes
 
 [1]: https://help.github.com/articles/using-pull-requests
+
+### Build ABAGAIL
+In order to run the jython script that runs all the different examples first you need to do a build.
+<pre><code>mvn clean install</code></pre> 
+
+The previous command will generate abagail<SNAPSHOT>.jar file inside the target directory.
+
+### Running jython in run.sh script
+Change folder to jython inside ABAGAIL
+<pre><code>cd jython</code></pre>
+
+Add new abagail jar from target directory to CLASSPATH
+<pre><code>export CLASSPATH=../target/abagail-1.0-SNAPSHOT.jar:$CLASSPATH</code></pre>
+
+Execute the shell script
+<pre><code>me@thisMac ABAGAIL/jython>./run.sh <br>
+four peaks                                    <br>
+RHC: 200.0                                    <br>
+SA: 200.0                                     <br>
+GA: 15.0                                      <br>
+MIMIC: 85.0                                   <br>
+count ones                                    <br>
+RHC: 70.0                                     <br>
+SA: 63.0                                      <br>
+GA: 54.0                                      <br>
+MIMIC: 77.0                                   <br>
+continuous peaks                              <br>
+RHC: 76.0                                     <br>
+SA: 112.0                                     <br>
+GA: 85.0                                      <br>
+MIMIC: 109.0                                  <br>
+Running knapsack                              <br>
+RHC: 2323.299714936173                        <br>
+SA: 2649.632811328231                         <br>
+GA: 3186.3583665385268                        <br>
+MIMIC: 3348.0825763376497                     <br>
+</code></pre>
+
+ 
+
+
